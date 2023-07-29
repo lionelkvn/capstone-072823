@@ -1,0 +1,81 @@
+
+.ServicesOffer {
+  padding: 1rem 5% 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ServicesOffer .CarouselContainer {
+  width: 90%;
+  max-width: 1200px;
+}
+
+.ServicesOffer h1 {
+  color: #1f242d;
+  padding-top: 2rem;
+}
+
+.ServicesOffer h2 {
+  color: #14bdad;
+  padding-bottom: 1rem;
+}
+
+.packageContainer {
+  padding: 2rem 5% 2rem;
+  flex-basis: 100%;
+  width: 80%;
+}
+
+.ServicesOfferContent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ServiceOfferPackagePrices-wrapper {
+  width: 35%;
+  flex-basis: 35%;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.ServicesOfferContent .CarouselContainer {
+  width: 65%;
+  flex-basis: 65%;
+}
+
+
+.ServiceOfferPackagePrices {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  box-shadow: 0px 2px 4px 0.3px rgba(0, 0, 0, 0.1);
+}
+
+.ServiceOfferPackagePrices span {
+  font-size: 30px;
+  color: #1f242d;
+}
+
+@media screen and (max-width: 768px) {
+  .ServicesOffer {
+    padding: 1rem 2%;
+  }
+
+  .ServicesOffer .CarouselContainer {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .packageContainer {
+    padding: 1rem 2%;
+  }
+  .ServiceOfferPackagePrices-wrapper {
+    width: 35%;
+    flex-basis: 100%;
+  }
+  
+}

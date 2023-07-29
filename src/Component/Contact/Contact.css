@@ -1,0 +1,84 @@
+.Contact {
+  font-weight: 600;
+  padding: 6rem 8% 2rem;
+  height: auto;
+}
+
+.Contact h1 , h4{
+  text-align: center;
+}
+
+#Contact .primary-color {
+  color: #14bdad;
+  cursor: default;
+}
+
+.Contact-wrapper {
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.Contactcontent1,
+.Contactcontent2 {
+  padding: 2rem;
+}
+
+input[type="text"],
+textarea[type="text"],
+select {
+  font-weight: 600;
+  width: 100%;
+  padding: 6px 14px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  font-weight: 600;
+  width: 100%;
+  background-color: #14bdad;
+  border: solid #14bdad;
+  color: white;
+  padding: 8px 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button :hover {
+  background-color: transparent;
+  color: #14bdad;
+  border-color: #14bdad;
+  border: solid #14bdad;
+}
+
+.iframe-wrapper {
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .Contact {
+    height: 90vh;
+  }
+
+  .Contact-wrapper {
+    flex-direction: row;
+  }
+
+  .Contactcontent1 {
+    width: 50%;
+  }
+
+  .Contactcontent2 {
+    margin: 2rem;
+    width: 50%;
+  }
+}
+
