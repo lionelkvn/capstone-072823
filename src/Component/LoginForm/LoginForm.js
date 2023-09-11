@@ -88,9 +88,9 @@ const LoginForm = () => {
         </div>
         <div className='button-container'>
           <button className='button' onClick={login}>
-            {/* <a href="/"> */}
+            <a href="/">
             Log in
-            {/* </a> */}
+            </a>
           </button>
         </div>
         <div>
