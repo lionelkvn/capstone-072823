@@ -4,7 +4,7 @@ const Home = () => {
   return (
       <div id="Home" className="Home-container">
             <div class="HomeImage">
-                <img src="/SlideImage.png" alt="Home-Slider"/>
+                <img src="/SlideImage.png" alt="HomeImage"/>
             </div>
             <div class='HomeContent'>
                 <h1><span class="primary-color">Ink</span><span>novative</span></h1> 
