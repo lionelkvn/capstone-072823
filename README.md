@@ -1,4 +1,4 @@
-Inknovative Portfolio Website
+Inknovative Portfolio Website:
 a portfolio website highlighting the projects of Inknovative, a premier graphic design firm in Cotabato, Philippines.
 
 
