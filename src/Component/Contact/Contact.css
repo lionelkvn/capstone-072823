@@ -73,15 +73,17 @@ button :hover {
   }
 
   .Contactcontent1 {
-    width: 50%;
+    width: 100%;
   }
 
   .Contactcontent2 {
-    width: 50%;
+    width: 100%;
   }
   .iframe-wrapper {
     margin: 0;
-    width: 100%;
+  }
+  iframe {
+    width: fit-content;
     height: auto;
   }
 }
