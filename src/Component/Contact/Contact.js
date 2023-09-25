@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div id="Contact" className="Contact">
       <h1>Work with the <span className="primary-color">Ink</span></h1>
-      <h4>Do you have a project you would like us to work on? Or perhaps a few questions?</h4>
+      <h4>Do you have a project you would like us to work on? or perhaps a few questions?</h4>
       <h4>Contact us and we will be more than happy to assist you.</h4>
       <div className="Contact-wrapper">
         <div className="Contactcontent1">
