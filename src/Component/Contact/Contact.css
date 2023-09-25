@@ -63,13 +63,13 @@ button :hover {
   margin: 20px 0;
 }
 
-@media screen and (min-width: 768px) {
+@media (max-width: 768px) {
   .Contact {
-    height: 90vh;
+    height: auto;
   }
 
   .Contact-wrapper {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .Contactcontent1 {
@@ -77,8 +77,12 @@ button :hover {
   }
 
   .Contactcontent2 {
-    margin: 2rem;
     width: 50%;
+  }
+  .iframe-wrapper {
+    margin: 0;
+    width: 100%;
+    height: auto;
   }
 }
 
